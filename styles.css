@@ -1,0 +1,41 @@
+/* Typography */
+body {
+  /* Everything is Raleway */
+  font-family: 'Raleway', sans-serif;
+}
+/* Except we're using more specific rules to override the headlines */
+h1, h2, h3, h4, h5, h6, {
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* Navbar background color */
+.navbar {
+  background-color: white;
+}
+
+/* Jumbotron background and font styles */
+/* Notice that I'm using all of the background CSS rules on the CSS cheat sheet */
+.jumbotron {
+  /* Background */
+  background-attachment: fixed;
+  background-image: url(background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Fonts */
+  /* The text-shadow helps the white text stand out better on a darker background */
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.table {
+  width: 50%;
+  margin: 0 auto !important;
+  font-size: 20px
+}
+
+p {
+  font-size: 1.2em;
+}
+
+
